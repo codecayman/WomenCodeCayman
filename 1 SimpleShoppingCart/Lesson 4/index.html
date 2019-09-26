@@ -1,0 +1,43 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+           <link rel="stylesheet" href="styles.css"/>
+            <script type="text/javascript" src="jquery.min.js"></script>
+            <script type="text/javascript" src="script.js"></script>
+    </head>
+<body>
+    <h1>Shopping Cart</h1>
+    <div class="container">
+        <h3>Add Item</h3>
+        <div class="row">
+            <div class="col-md-1">Item</div>
+            <div class="col-md-1"><input id="item" type="text"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-1">Quantity</div>
+            <div class="col-md-1"><input id="quantity" type="number"></div>
+        </div>
+        <div class="row">
+                <div class="col-md-1">Price</div>
+                <div class="col-md-1"><input id="price" type="number"></div>
+        </div>
+        <div class="row">
+           <div class="col-md-2"><input type="button" onclick="AddItem()" value="Add Item"/></div>
+        </div>
+    </div>
+    <div class="container" id="items">
+        <h3>Your Items</h3>
+        <div class="row" id="header">
+            <div class="col-md-1">Item</div>
+            <div class="col-md-1">Quanity</div>
+            <div class="col-md-1">Price</div>
+       </div>
+    </div>
+    <div class="container" id="total">
+        <input type="button" value="Get Total" onclick="GetTotal()"></input>
+    </div>
+
+    </div>
+</body>
+
+</html>

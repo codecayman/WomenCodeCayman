@@ -1,0 +1,20 @@
+label{
+    display: inline-block;
+    width:200pt;
+    color:red;
+}
+.container
+{
+    padding-top:20px;
+}
+
+.row{
+    padding-bottom:5px;
+}
+
+#header 
+{
+    background-color: rgb(48, 133, 164);
+    color:white;
+}
+
